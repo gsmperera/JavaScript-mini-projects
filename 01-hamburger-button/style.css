@@ -12,6 +12,8 @@ body {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
+    background: url('https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-size: 100vw 100vh;
 }
 
 button {
@@ -22,7 +24,7 @@ button {
     height: 24px;
     font-size: 12px;
     color: #fff;
-    background-color: #34495e;
+    background-color: rgba(0, 0, 0, 0.5);
     border: none;
     z-index: 1;
     transition: 0.3s ease;
@@ -43,7 +45,7 @@ nav {
     right: 0;
     height: 100vh;
     padding: 1rem;
-    background-color: #34495e;
+    background-color: rgba(0, 0, 0, 0.5);
     transform: translateX(100%);
     transition: 0.3s ease;
 }
