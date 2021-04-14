@@ -15,3 +15,9 @@ body {
     background: url('https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
     background-size: 100vw 100vh;
 }
+
+#container {
+    position: fixed;
+    bottom: 30px;
+    color: #fff;
+}
