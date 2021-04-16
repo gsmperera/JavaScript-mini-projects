@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: url('https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-size: 100vw 100vh;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+#clickBtn {
+    background-color: #060f0e;
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+}
+#clickBtn:active {
+    color: #ff0000;
+}
+#closeBtn {
+    line-height: 12px;
+    padding-top: 1px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    background-color: transparent;
+}
+#closeBtn:active {
+    color: #ff0000;
+}
+
+.container {
+    position: fixed;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.container p {
+    margin-top: 10px;
+}
+
+.active {
+    visibility: visible;
+}
